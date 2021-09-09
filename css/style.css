@@ -26,10 +26,16 @@ h1{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    width: 50%;
 }
 .content>h1{
     color: yellow;
+    text-align: center;
+    font-size: 2rem;
 }
-.box.red img{
-    width: 500px;
+.yellow h1{
+    color:green;
+}
+.box img{
+    width: 100%;
 }
